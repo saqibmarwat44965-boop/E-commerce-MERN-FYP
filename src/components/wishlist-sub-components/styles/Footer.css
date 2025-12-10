@@ -1,0 +1,99 @@
+.Wishlist-Footercomponent{
+    display: inline-block;
+    margin-top: 250px;
+    width: 100%;
+    overflow-x: hidden;
+    background: black;
+}
+.wishlist-news-letter{
+    width: 90%;
+    margin-left: 5%;
+    border-top: 1px solid #a8a8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.wishlist-news-letter-heading{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.wishlist-news-letter-para{
+    padding-bottom: 10px;
+}
+.wishlist-news-letter-form input[type='text']{
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    padding-left: 30px;
+    background: #1a1a1a;
+    color: #a8a8b8;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.wishlist-news-letter-form input[type='submit']{
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -10.5%;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.wishlist-follow-bar{
+    float: right;
+    color: #fff;
+    margin-right: 100px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.wishlist-follow-bar-items{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.wishlist-footer-lists{
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #a8a8b8;
+    border-bottom: 1px solid #a8a8b8;
+    display: flex;
+    justify-content: space-between;
+}
+.wishlist-footer-lists ul{
+    list-style: none;
+    color: #aaa;
+    font-size: 16px;
+}
+.wishlist-footer-lists ul li{
+    cursor: pointer;
+    padding: 8px;
+}
+.wishlist-footer-list-heading{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.wishlist-footer-end{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wishlist-copyright-statement{
+    float: left;
+    color: #a8a8b8;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.wishlist-payment-img{
+    float: right;
+    margin-right: 5%;
+}

@@ -1,0 +1,43 @@
+.header-top{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 13px;
+    font-weight: 500;
+    background: #000;
+    z-index: 5;
+}
+.header-top a{
+    text-decoration: none;
+    color: #c8c8c8;
+}
+.header-top a:hover{
+    color: #929292;
+}
+.header-top-discription{
+    float: left;
+    margin-left: 40px;
+    color: #c8c8c8;
+}
+@keyframes dropdown {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
+.header-top-menu-right{
+    float: right;
+    margin-right: 40px;
+}
+.header-top-menuitems-r{
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header-dropdown-icon{
+    margin-left: 5px;
+}

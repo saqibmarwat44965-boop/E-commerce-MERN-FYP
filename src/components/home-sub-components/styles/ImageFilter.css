@@ -1,0 +1,253 @@
+.ProductsFilter{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    overflow: hidden;
+    z-index: 3;
+}
+.ProductsFilter a{
+    text-decoration: none;
+    color: #929292;
+    cursor: pointer;
+}
+.CategoryBar a:hover{
+    color: #3b322c;
+}
+.category-menu{
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.category-menuitems{
+    display: block;
+    padding-top: 20px;
+}
+
+/* PRODUCTS */
+
+.products{
+    float: right;
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+.product-box{
+    display: inline-block;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.product-box:hover .quicklook{
+    margin-top: 170px;
+}
+.product-box:hover .wishlist-icon{
+    display: inline-block;
+    margin-left: 80px;
+}
+.product-box:hover .quickview-icon{
+    display: inline-block;
+    margin-left: 80px;
+}
+.product-box:hover .compare-icon{
+    display: inline-block;
+    margin-left: 80px;
+}
+.quicklook-hidder{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: white;
+    z-index: 4;
+}
+.product-interact-hidder{
+    position: absolute;
+    margin-left: 200px;
+    width: 50px;
+    height: 200px;
+    background: white;
+    z-index: 4;
+}
+.product-upper{
+    width: 100%;
+    height: 200px;
+    background-color: #f3f3f3;
+}
+.product-status{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: #C11E1E;
+    background: white;
+    z-index: 2;
+}
+.product-interect{
+    position: absolute;
+}
+.product-discount{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: #C11E1E;
+    background: white;
+    z-index: 2;
+}
+.wishlist .wishlist-icon{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: black;
+    background: white;
+    transition: 0.3s;
+    z-index: 2;
+}
+.quickview .quickview-icon{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: black;
+    background: white;
+    transition: 0.3s;
+    z-index: 2;
+}
+.compare .compare-icon{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: black;
+    background: white;
+    transition: 0.3s;
+    z-index: 2;
+}
+.wishlist .wishlist-title{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    color: #aaa;
+    background: black;
+    z-index: 2;
+}
+.quickview .quickview-title{
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+    margin-left: -10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    color: #aaa;
+    background: black;
+    z-index: 2;
+}
+.compare .compare-title{
+    position: absolute;
+    display: none;
+    margin-top: 90px;
+    margin-left: -10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    color: #aaa;
+    background: black;
+    z-index: 2;
+}
+.wishlist-icon:hover{
+    color: white;
+    background: #C11E1E;
+}
+.quickview-icon:hover{
+    color: white;
+    background: #C11E1E;
+}
+.compare-icon:hover{
+    color: white;
+    background: #C11E1E;
+}
+.wishlist-icon:hover .wishlist-title{
+    display: block;
+}
+.quickview-icon:hover .quickview-title{
+    display: block;
+}
+.compare-icon:hover .compare-title{
+    display: block;
+}
+.product-img{
+    position: absolute;
+    width: 15%;
+    height: 200px;
+    background-color: #f3f3f3;
+    z-index: 1;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.quicklook{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 200px;
+    color: Black;
+    background: white;
+    border-radius: 25px;
+    transition: 0.3s;
+    z-index: 2;
+}
+.look-text{
+    padding: 30px;
+    font-size: 16px;
+}
+.quicklook:hover{
+    color: white;
+    background: #C11E1E;
+    border-radius: 25px;
+    transition: 0.3s;
+    z-index: 2;
+}
+.product-title{
+    margin-top: 30px;
+    font-size: 16px;
+}

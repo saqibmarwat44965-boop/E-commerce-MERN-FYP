@@ -1,0 +1,302 @@
+.header-bottom{
+    position: fixed;
+    width: 100%;
+    top: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
+    z-index: 5;
+}
+.header-bottom a{
+    text-decoration: none;
+    color: #3b322c;
+}
+.header-bottom a:hover{
+    color: #c11e1e;
+}
+.logo{
+    position: absolute;
+    display: inline-block;
+    padding-top: 10px;
+    width: 130px;
+    height: 30px;
+    left: 3%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes dropdown {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
+.header-bottom-menu-right{
+    float: right;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+.header-bottom-menuitems-r{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.header-bottom-menuitems-r:hover .header-bottom-dropdown-icon{
+    color: #c11e1e;
+}
+.header-bottom-menuitems-r-icon{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header-bottom-dropdown-icon{
+    font-size: 12px;
+    margin-left: 5px;
+    color: grey;
+}
+.header-bottom-Search-icon{
+    margin-right: 5px;
+}
+.home-link:hover .home-link-dropdown{
+    display: inline-block;
+    animation: showdropdown;
+}
+.home-link-dropdown{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 500px;
+    top: 70px;
+    left: 0;
+    background: white;
+}
+.home-link-dropdown .home-link-dropdown-images{
+    display: inline-block;
+    width: 40%;
+}
+.home-link-dropdown-image1{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 80%;
+}
+.home-link-dropdown-image1 img{
+    width: 100%;
+    height: 100%;
+}
+.home-link-dropdown-image2{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 80%;
+}
+.home-link-dropdown-image2 img{
+    width: 100%;
+    height: 100%;
+}
+.home-link-dropdown .home-link-dropdown-lists{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    top: 0px;
+    left: 40%;
+    border-left: 1px solid #aaa;
+}
+.home-link-dropdown-list{
+    display: inline-block;
+}
+.home-link-dropdown-list ul{
+    list-style: none;
+}
+.home-link-dropdown-list ul li{
+    margin-bottom: 20px;
+}
+.home-link-dropdown-list-heading{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/*JEWELRY DROPDOWN*/
+
+.jewelry-link:hover .jewelry-link-dropdown{
+    display: inline-flex;
+}
+.jewelry-link-dropdown{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 400px;
+    top: 70px;
+    left: 0;
+    background: white;
+}
+.jewelry-link-dropdown-image1{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 80%;
+}
+.jewelry-link-dropdown-image1 img{
+    width: 100%;
+    height: 100%;
+}
+.jewelry-link-dropdown .jewelry-link-dropdown-lists{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-left: 1px solid #aaa;
+}
+.jewelry-link-dropdown-list{
+    display: inline-block;
+    width: 20%;
+}
+.jewelry-link-dropdown-list ul{
+    list-style: none;
+}
+.jewelry-link-dropdown-list ul li{
+    margin-bottom: 20px;
+}
+.jewelry-link-dropdown-list-heading{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/*HANDBAGS DROPDOWN*/
+
+.handbags-link:hover .handbags-link-dropdown{
+    display: flex;
+}
+.handbags-link-dropdown{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 400px;
+    top: 70px;
+    left: 0;
+    background: white;
+}
+.handbags-link-dropdown-images{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 60%;
+}
+.handbags-link-dropdown-image{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 3%;
+    width: 30%;
+    height: 70%;
+}
+.handbags-link-dropdown-image img{
+    width: 100%;
+    height: 100%;
+}
+.handbags-link-dropdown .handbags-link-dropdown-lists{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-left: 1px solid #aaa;
+}
+.handbags-link-dropdown-list{
+    display: inline-block;
+    width: 20%;
+}
+.handbags-link-dropdown-list ul{
+    list-style: none;
+}
+.handbags-link-dropdown-list ul li{
+    margin-bottom: 20px;
+}
+.handbags-link-dropdown-list-heading{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/*ACCESSORIES DROPDOWN*/
+
+.accessories-link:hover .accessories-link-dropdown{
+    display: inline-block;
+}
+.accessories-link-dropdown{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 400px;
+    top: 70px;
+    left: 0;
+    background: white;
+}
+.accessories-link-dropdown-images{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 60%;
+}
+.accessories-link-dropdown-image{
+    position: absolute;
+    margin-top: 20px;
+    right: 5%;
+    width: 30%;
+    height: 70%;
+}
+.accessories-link-dropdown-image img{
+    width: 100%;
+    height: 100%;
+}
+.accessories-link-dropdown .accessories-link-dropdown-lists{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 20px;
+    border-left: 1px solid #aaa;
+}
+.accessories-link-dropdown-list{
+    display: inline-block;
+    width: 33%;
+}
+.accessories-link-dropdown-list ul{
+    list-style: none;
+}
+.accessories-link-dropdown-list ul li{
+    margin-bottom: 20px;
+}
+.accessories-link-dropdown-list-heading{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.active-user-indicator{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #c11e1e;
+    border: 2px solid #3b322c;
+    border-radius: 50%;
+}
+.logout-user-button{
+    display: none;
+}
+.active-user-indicator:hover .logout-user-button{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin-top: -10px;
+    background: #c64c4c;
+    border: 2px solid #3b322c;
+    border-radius: 10%;
+}

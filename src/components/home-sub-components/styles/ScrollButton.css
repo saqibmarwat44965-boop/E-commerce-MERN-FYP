@@ -1,0 +1,26 @@
+.scrollbutton{
+    position: fixed;
+    right: 0px;
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #111111;
+    color: white;
+    bottom: 0px;
+    font-size: 20px;
+    border-radius: 2px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px)
+{
+    
+    .scrollbutton{
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+}

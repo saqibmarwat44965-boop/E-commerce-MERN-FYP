@@ -1,0 +1,118 @@
+.Footercomponent{
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.footer-slide{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #a8a8b8;
+}
+.footer-slide-image{
+    display: inline-block;
+}
+.news-letter{
+    width: 90%;
+    margin-left: 5%;
+    border-top: 1px solid #a8a8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.news-letter-heading{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.news-letter-para{
+    padding-bottom: 10px;
+}
+.news-letter-form input[type='text']{
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    padding-left: 30px;
+    background: #ededed;
+    color: #a8a8b8;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.news-letter-form input[type='submit']{
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -10.5%;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.follow-bar{
+    float: right;
+    color: black;
+    margin-right: 100px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.follow-bar-items{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.footer-lists{
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #a8a8b8;
+    border-bottom: 1px solid #a8a8b8;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-lists ul{
+    list-style: none;
+    color: #000;
+    font-size: 16px;
+}
+.footer-lists ul li{
+    cursor: pointer;
+    padding: 8px;
+}
+.footer-list-heading{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-end{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copyright-statement{
+    float: left;
+    color: #000;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.payment-img{
+    float: right;
+    margin-right: 5%;
+}
+.loginbtn{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

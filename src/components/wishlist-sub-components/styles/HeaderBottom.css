@@ -1,0 +1,44 @@
+.wishlist-header-bottom{
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+.wishlist-header-bottom a{
+    text-decoration: none;
+    color: #3b322c;
+}
+.wishlist-header-bottom a:hover{
+    color: #c11e1e;
+}
+@keyframes dropdown {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
+.wishlist-header-bottom-menu-center{
+    padding-top: 10px;
+}
+.wishlist-header-bottom-menuitems-c{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.wishlist-header-bottom-menuitems-c:hover .wishlist-header-bottom-dropdown-icon{
+    color: #c11e1e;
+}
+.wishlist-header-bottom-dropdown-icon{
+    font-size: 12px;
+    margin-left: 5px;
+    color: grey;
+}
